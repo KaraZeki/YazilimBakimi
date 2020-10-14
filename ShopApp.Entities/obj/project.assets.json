@@ -818,11 +818,11 @@
   "project": {
     "version": "1.0.0",
     "restore": {
-      "projectUniqueName": "D:\\4.Sınıf\\Yazılım Bakımı\\ProjeOdevi\\ShopApp\\ShopApp.Entities\\ShopApp.Entities.csproj",
+      "projectUniqueName": "D:\\4.Sınıf\\Yazılım Bakımı\\YazilimBakimi\\ShopApp.Entities\\ShopApp.Entities.csproj",
       "projectName": "ShopApp.Entities",
-      "projectPath": "D:\\4.Sınıf\\Yazılım Bakımı\\ProjeOdevi\\ShopApp\\ShopApp.Entities\\ShopApp.Entities.csproj",
+      "projectPath": "D:\\4.Sınıf\\Yazılım Bakımı\\YazilimBakimi\\ShopApp.Entities\\ShopApp.Entities.csproj",
       "packagesPath": "C:\\Users\\Mehmet Zeki KARA\\.nuget\\packages\\",
-      "outputPath": "D:\\4.Sınıf\\Yazılım Bakımı\\ProjeOdevi\\ShopApp\\ShopApp.Entities\\obj\\",
+      "outputPath": "D:\\4.Sınıf\\Yazılım Bakımı\\YazilimBakimi\\ShopApp.Entities\\obj\\",
       "projectStyle": "PackageReference",
       "configFilePaths": [
         "C:\\Users\\Mehmet Zeki KARA\\AppData\\Roaming\\NuGet\\NuGet.Config",

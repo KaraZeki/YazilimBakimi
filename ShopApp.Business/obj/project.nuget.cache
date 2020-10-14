@@ -1,8 +1,8 @@
 {
   "version": 2,
-  "dgSpecHash": "/rrZ4Dh0OJgyBCdAV7rZGcO+5LCbhIAoMeZODIEGiv4JUYZyLLcRx2WjoLTGk8oDBQmYjLa+1sQMGmvCqo+FBA==",
+  "dgSpecHash": "U8RmL8hODIm+UkG9iiGNvH79mVfNx+UrDhtr5G8UCiIfOJTB4fp5mHIm2SaIzEKMH9UpoDCKIBXWpfE6neqwJg==",
   "success": true,
-  "projectFilePath": "D:\\4.Sınıf\\Yazılım Bakımı\\ProjeOdevi\\ShopApp\\ShopApp.Business\\ShopApp.Business.csproj",
+  "projectFilePath": "D:\\4.Sınıf\\Yazılım Bakımı\\YazilimBakimi\\ShopApp.Business\\ShopApp.Business.csproj",
   "expectedPackageFiles": [
     "C:\\Users\\Mehmet Zeki KARA\\.nuget\\packages\\microsoft.aspnetcore.cryptography.internal\\3.1.8\\microsoft.aspnetcore.cryptography.internal.3.1.8.nupkg.sha512",
     "C:\\Users\\Mehmet Zeki KARA\\.nuget\\packages\\microsoft.aspnetcore.cryptography.keyderivation\\3.1.8\\microsoft.aspnetcore.cryptography.keyderivation.3.1.8.nupkg.sha512",

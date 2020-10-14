@@ -5873,11 +5873,11 @@
   "project": {
     "version": "1.0.0",
     "restore": {
-      "projectUniqueName": "D:\\4.Sınıf\\Yazılım Bakımı\\ProjeOdevi\\ShopApp\\ShopApp.Business\\ShopApp.Business.csproj",
+      "projectUniqueName": "D:\\4.Sınıf\\Yazılım Bakımı\\YazilimBakimi\\ShopApp.Business\\ShopApp.Business.csproj",
       "projectName": "ShopApp.Business",
-      "projectPath": "D:\\4.Sınıf\\Yazılım Bakımı\\ProjeOdevi\\ShopApp\\ShopApp.Business\\ShopApp.Business.csproj",
+      "projectPath": "D:\\4.Sınıf\\Yazılım Bakımı\\YazilimBakimi\\ShopApp.Business\\ShopApp.Business.csproj",
       "packagesPath": "C:\\Users\\Mehmet Zeki KARA\\.nuget\\packages\\",
-      "outputPath": "D:\\4.Sınıf\\Yazılım Bakımı\\ProjeOdevi\\ShopApp\\ShopApp.Business\\obj\\",
+      "outputPath": "D:\\4.Sınıf\\Yazılım Bakımı\\YazilimBakimi\\ShopApp.Business\\obj\\",
       "projectStyle": "PackageReference",
       "configFilePaths": [
         "C:\\Users\\Mehmet Zeki KARA\\AppData\\Roaming\\NuGet\\NuGet.Config",
@@ -5895,11 +5895,11 @@
       "frameworks": {
         "netcoreapp3.1": {
           "projectReferences": {
-            "D:\\4.Sınıf\\Yazılım Bakımı\\ProjeOdevi\\ShopApp\\ShopApp.DataAccess\\ShopApp.DataAccess.csproj": {
-              "projectPath": "D:\\4.Sınıf\\Yazılım Bakımı\\ProjeOdevi\\ShopApp\\ShopApp.DataAccess\\ShopApp.DataAccess.csproj"
+            "D:\\4.Sınıf\\Yazılım Bakımı\\YazilimBakimi\\ShopApp.DataAccess\\ShopApp.DataAccess.csproj": {
+              "projectPath": "D:\\4.Sınıf\\Yazılım Bakımı\\YazilimBakimi\\ShopApp.DataAccess\\ShopApp.DataAccess.csproj"
             },
-            "D:\\4.Sınıf\\Yazılım Bakımı\\ProjeOdevi\\ShopApp\\ShopApp.Entities\\ShopApp.Entities.csproj": {
-              "projectPath": "D:\\4.Sınıf\\Yazılım Bakımı\\ProjeOdevi\\ShopApp\\ShopApp.Entities\\ShopApp.Entities.csproj"
+            "D:\\4.Sınıf\\Yazılım Bakımı\\YazilimBakimi\\ShopApp.Entities\\ShopApp.Entities.csproj": {
+              "projectPath": "D:\\4.Sınıf\\Yazılım Bakımı\\YazilimBakimi\\ShopApp.Entities\\ShopApp.Entities.csproj"
             }
           }
         }

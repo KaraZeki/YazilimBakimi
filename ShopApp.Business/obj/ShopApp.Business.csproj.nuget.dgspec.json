@@ -1,17 +1,17 @@
 {
   "format": 1,
   "restore": {
-    "D:\\4.Sınıf\\Yazılım Bakımı\\ProjeOdevi\\ShopApp\\ShopApp.Business\\ShopApp.Business.csproj": {}
+    "D:\\4.Sınıf\\Yazılım Bakımı\\YazilimBakimi\\ShopApp.Business\\ShopApp.Business.csproj": {}
   },
   "projects": {
-    "D:\\4.Sınıf\\Yazılım Bakımı\\ProjeOdevi\\ShopApp\\ShopApp.Business\\ShopApp.Business.csproj": {
+    "D:\\4.Sınıf\\Yazılım Bakımı\\YazilimBakimi\\ShopApp.Business\\ShopApp.Business.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "D:\\4.Sınıf\\Yazılım Bakımı\\ProjeOdevi\\ShopApp\\ShopApp.Business\\ShopApp.Business.csproj",
+        "projectUniqueName": "D:\\4.Sınıf\\Yazılım Bakımı\\YazilimBakimi\\ShopApp.Business\\ShopApp.Business.csproj",
         "projectName": "ShopApp.Business",
-        "projectPath": "D:\\4.Sınıf\\Yazılım Bakımı\\ProjeOdevi\\ShopApp\\ShopApp.Business\\ShopApp.Business.csproj",
+        "projectPath": "D:\\4.Sınıf\\Yazılım Bakımı\\YazilimBakimi\\ShopApp.Business\\ShopApp.Business.csproj",
         "packagesPath": "C:\\Users\\Mehmet Zeki KARA\\.nuget\\packages\\",
-        "outputPath": "D:\\4.Sınıf\\Yazılım Bakımı\\ProjeOdevi\\ShopApp\\ShopApp.Business\\obj\\",
+        "outputPath": "D:\\4.Sınıf\\Yazılım Bakımı\\YazilimBakimi\\ShopApp.Business\\obj\\",
         "projectStyle": "PackageReference",
         "configFilePaths": [
           "C:\\Users\\Mehmet Zeki KARA\\AppData\\Roaming\\NuGet\\NuGet.Config",
@@ -29,11 +29,11 @@
         "frameworks": {
           "netcoreapp3.1": {
             "projectReferences": {
-              "D:\\4.Sınıf\\Yazılım Bakımı\\ProjeOdevi\\ShopApp\\ShopApp.DataAccess\\ShopApp.DataAccess.csproj": {
-                "projectPath": "D:\\4.Sınıf\\Yazılım Bakımı\\ProjeOdevi\\ShopApp\\ShopApp.DataAccess\\ShopApp.DataAccess.csproj"
+              "D:\\4.Sınıf\\Yazılım Bakımı\\YazilimBakimi\\ShopApp.DataAccess\\ShopApp.DataAccess.csproj": {
+                "projectPath": "D:\\4.Sınıf\\Yazılım Bakımı\\YazilimBakimi\\ShopApp.DataAccess\\ShopApp.DataAccess.csproj"
               },
-              "D:\\4.Sınıf\\Yazılım Bakımı\\ProjeOdevi\\ShopApp\\ShopApp.Entities\\ShopApp.Entities.csproj": {
-                "projectPath": "D:\\4.Sınıf\\Yazılım Bakımı\\ProjeOdevi\\ShopApp\\ShopApp.Entities\\ShopApp.Entities.csproj"
+              "D:\\4.Sınıf\\Yazılım Bakımı\\YazilimBakimi\\ShopApp.Entities\\ShopApp.Entities.csproj": {
+                "projectPath": "D:\\4.Sınıf\\Yazılım Bakımı\\YazilimBakimi\\ShopApp.Entities\\ShopApp.Entities.csproj"
               }
             }
           }
@@ -65,14 +65,14 @@
         }
       }
     },
-    "D:\\4.Sınıf\\Yazılım Bakımı\\ProjeOdevi\\ShopApp\\ShopApp.DataAccess\\ShopApp.DataAccess.csproj": {
+    "D:\\4.Sınıf\\Yazılım Bakımı\\YazilimBakimi\\ShopApp.DataAccess\\ShopApp.DataAccess.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "D:\\4.Sınıf\\Yazılım Bakımı\\ProjeOdevi\\ShopApp\\ShopApp.DataAccess\\ShopApp.DataAccess.csproj",
+        "projectUniqueName": "D:\\4.Sınıf\\Yazılım Bakımı\\YazilimBakimi\\ShopApp.DataAccess\\ShopApp.DataAccess.csproj",
         "projectName": "ShopApp.DataAccess",
-        "projectPath": "D:\\4.Sınıf\\Yazılım Bakımı\\ProjeOdevi\\ShopApp\\ShopApp.DataAccess\\ShopApp.DataAccess.csproj",
+        "projectPath": "D:\\4.Sınıf\\Yazılım Bakımı\\YazilimBakimi\\ShopApp.DataAccess\\ShopApp.DataAccess.csproj",
         "packagesPath": "C:\\Users\\Mehmet Zeki KARA\\.nuget\\packages\\",
-        "outputPath": "D:\\4.Sınıf\\Yazılım Bakımı\\ProjeOdevi\\ShopApp\\ShopApp.DataAccess\\obj\\",
+        "outputPath": "D:\\4.Sınıf\\Yazılım Bakımı\\YazilimBakimi\\ShopApp.DataAccess\\obj\\",
         "projectStyle": "PackageReference",
         "configFilePaths": [
           "C:\\Users\\Mehmet Zeki KARA\\AppData\\Roaming\\NuGet\\NuGet.Config",
@@ -90,8 +90,8 @@
         "frameworks": {
           "netcoreapp3.1": {
             "projectReferences": {
-              "D:\\4.Sınıf\\Yazılım Bakımı\\ProjeOdevi\\ShopApp\\ShopApp.Entities\\ShopApp.Entities.csproj": {
-                "projectPath": "D:\\4.Sınıf\\Yazılım Bakımı\\ProjeOdevi\\ShopApp\\ShopApp.Entities\\ShopApp.Entities.csproj"
+              "D:\\4.Sınıf\\Yazılım Bakımı\\YazilimBakimi\\ShopApp.Entities\\ShopApp.Entities.csproj": {
+                "projectPath": "D:\\4.Sınıf\\Yazılım Bakımı\\YazilimBakimi\\ShopApp.Entities\\ShopApp.Entities.csproj"
               }
             }
           }
@@ -149,14 +149,14 @@
         }
       }
     },
-    "D:\\4.Sınıf\\Yazılım Bakımı\\ProjeOdevi\\ShopApp\\ShopApp.Entities\\ShopApp.Entities.csproj": {
+    "D:\\4.Sınıf\\Yazılım Bakımı\\YazilimBakimi\\ShopApp.Entities\\ShopApp.Entities.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "D:\\4.Sınıf\\Yazılım Bakımı\\ProjeOdevi\\ShopApp\\ShopApp.Entities\\ShopApp.Entities.csproj",
+        "projectUniqueName": "D:\\4.Sınıf\\Yazılım Bakımı\\YazilimBakimi\\ShopApp.Entities\\ShopApp.Entities.csproj",
         "projectName": "ShopApp.Entities",
-        "projectPath": "D:\\4.Sınıf\\Yazılım Bakımı\\ProjeOdevi\\ShopApp\\ShopApp.Entities\\ShopApp.Entities.csproj",
+        "projectPath": "D:\\4.Sınıf\\Yazılım Bakımı\\YazilimBakimi\\ShopApp.Entities\\ShopApp.Entities.csproj",
         "packagesPath": "C:\\Users\\Mehmet Zeki KARA\\.nuget\\packages\\",
-        "outputPath": "D:\\4.Sınıf\\Yazılım Bakımı\\ProjeOdevi\\ShopApp\\ShopApp.Entities\\obj\\",
+        "outputPath": "D:\\4.Sınıf\\Yazılım Bakımı\\YazilimBakimi\\ShopApp.Entities\\obj\\",
         "projectStyle": "PackageReference",
         "configFilePaths": [
           "C:\\Users\\Mehmet Zeki KARA\\AppData\\Roaming\\NuGet\\NuGet.Config",

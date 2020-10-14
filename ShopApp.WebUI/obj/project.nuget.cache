@@ -1,8 +1,8 @@
 {
   "version": 2,
-  "dgSpecHash": "ctnJJ6hTrc91aaouIqsBC/jILLbupNSM+N/7Cv00cGTNyWn66iHSQrWfD4z71jB3Glc7jdF65ZsIkoXZaUXTxw==",
+  "dgSpecHash": "rbcyWE/m5b5XjGc8gmpct+R1ot0sCpO+RbORi04OaO7gtvhHa2rPYCKfP/BHJhvlWbBgF2TJ3Hrp5IzAK+STfA==",
   "success": true,
-  "projectFilePath": "D:\\4.Sınıf\\Yazılım Bakımı\\ProjeOdevi\\ShopApp\\ShopApp.WebUI\\ShopApp.WebUI.csproj",
+  "projectFilePath": "D:\\4.Sınıf\\Yazılım Bakımı\\YazilimBakimi\\ShopApp.WebUI\\ShopApp.WebUI.csproj",
   "expectedPackageFiles": [
     "C:\\Users\\Mehmet Zeki KARA\\.nuget\\packages\\castle.core\\4.4.1\\castle.core.4.4.1.nupkg.sha512",
     "C:\\Users\\Mehmet Zeki KARA\\.nuget\\packages\\iyzipaycore\\1.0.0\\iyzipaycore.1.0.0.nupkg.sha512",
