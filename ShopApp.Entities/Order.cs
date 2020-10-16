@@ -30,7 +30,7 @@ namespace ShopApp.Entities
         public string Email { get; set; }
         public string OrderNote { get; set; }
 
-        //Bu alanlar ödeme bilgilerini apılere çekmek için kullanılır. Nullable olabileceği için strin olarak tanımlandı
+        //Bu alanlar ödeme bilgilerini apılere çekmek için kullanılır. Nullable olabileceği için string olarak tanımlandı
         public  string PaymentId { get; set; }
         public string PaymentToken { get; set; }
         public string ConversationId { get; set; }  //Iyzico için kullanılır

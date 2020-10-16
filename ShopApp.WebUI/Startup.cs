@@ -16,7 +16,7 @@ using ShopApp.Business.Concrete;
 using ShopApp.DataAccess.Abstract;
 using ShopApp.DataAccess.Conrete.EfCore;
 using ShopApp.DataAccess.Conrete.Memory;
-
+using ShopApp.WebUI.Middlewares;
 
 namespace ShopApp.WebUI
 {
@@ -60,6 +60,7 @@ namespace ShopApp.WebUI
             }
            
             app.UseStaticFiles();
+            app.CustomStaticFiles();
          
             app.UseAuthentication();//Identity iþlemi içindir
             app.UseMvc(routes =>
