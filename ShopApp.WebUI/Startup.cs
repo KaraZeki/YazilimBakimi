@@ -16,7 +16,7 @@ using ShopApp.Business.Concrete;
 using ShopApp.DataAccess.Abstract;
 using ShopApp.DataAccess.Conrete.EfCore;
 using ShopApp.DataAccess.Conrete.Memory;
-
+using ShopApp.WebUI.Middlewares;
 
 namespace ShopApp.WebUI
 {
@@ -30,7 +30,7 @@ namespace ShopApp.WebUI
             Configuration = configuration;
         }
 
-        // This method gets called by the runtime. Use this method to add services to the container.
+        
         // For more information on how to configure your application, visit https://go.microsoft.com/fwlink/?LinkID=398940
         public void ConfigureServices(IServiceCollection services)  
         {
@@ -45,13 +45,13 @@ namespace ShopApp.WebUI
             });
 
           
-            //sen e mail services
+            //send e mail services
             services.AddMvc(options => options.EnableEndpointRouting = false);
 
         }
 
         
-        // This method gets called by the runtime. Use this method to configure the HTTP request pipeline.
+
         public void Configure(IApplicationBuilder app, IWebHostEnvironment env) 
         {
             if (env.IsDevelopment())
@@ -60,6 +60,7 @@ namespace ShopApp.WebUI
             }
            
             app.UseStaticFiles();
+            app.CustomStaticFiles();
          
             app.UseAuthentication();//Identity iþlemi içindir
             app.UseMvc(routes =>
