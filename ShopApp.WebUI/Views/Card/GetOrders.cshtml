@@ -1,0 +1,147 @@
+﻿@model List<OrderListModel>
+@{
+    ViewData["Title"] = "GetOrders";
+    Layout = "~/Views/Shared/_Layout.cshtml";
+}
+
+<h1>Orders</h1>
+
+@foreach (var order in Model)
+{
+    <table class="table table-bordered table-sm mb-3">
+        <thead class="bg-primary text-white">
+            <tr>
+                <td colspan="2"> Order Id: #@order.OrderId</td>
+                <td>Price</td>
+                <td>Quantity</td>
+            </tr>
+        </thead>
+        <tbody>
+            @foreach (var orderItem in order.OrderItems)
+            {
+                <tr>
+                    <td width="60">
+                        <img src="~/img/@orderItem.ImageUrl" width="50" />
+                    </td>
+                    <td>
+                        @orderItem.Name
+                    </td>
+                    <td>
+                        @orderItem.Price
+                    </td>
+                    <td>
+                        @orderItem.Quantity
+                    </td>
+                    <td>
+                        @orderItem.ProductId
+                    </td>
+                    <td>
+                    </td>
+                    @*<td>
+                            <div class="modal" id="Modal2">
+                                <div class="modal-dialog">
+                                    <div class="modal-content">
+                                        <div class="modal-header">
+                                            <h2 class="modal-title">Yeni Banka Ekle</h2>
+                                        </div>
+                                        @using (Html.BeginForm("AddReview", "Card", FormMethod.Post))
+                                        {
+                                            <div class="modal-body">
+                                                <input class="form-control" type="hidden" name="ProductId" value="@orderItem.ProductId" />
+                                                <h4>Star</h4>
+                                                <input type="number" name="Star" class="form-control  " value="1" min="1" max="5" step="1" style="width:100px; height:40px;" />
+                                                <br />
+                                                <h4>Review</h4>
+                                                <div class="form-group row">
+                                                    <div class="col-12 ">
+                                                        <textarea required="" name="Description" class="form-control"></textarea>
+                                                    </div>
+                                                </div>
+                                                <button type="submit" class="btn btn-warning">Send</button>
+                                                <button type="button" class="btn btn-warning" data-dismiss="modal">Cancel</button>
+                                            </div>
+                                        }
+                                    </div>
+                                </div>
+                            </div>
+                        </td>*@
+                    <td>
+                        @* ///////////////////////// YORUM EKLE TOGGLES ///////////////////////// *@
+                        @*<a href="#" class="btn btn-success" data-toggle="modal" data-target="#Modal2">Evaluate the product</a>*@
+
+                        <!-- Button trigger modal -->
+                        <button type="button" class="btn btn-primary" data-toggle="modal" data-target="#exampleModal">
+                            Evaluate the product
+                        </button>
+
+                        <!-- Modal -->
+                        <div class="modal fade" id="exampleModal" tabindex="-1" role="dialog" aria-labelledby="exampleModalLabel" aria-hidden="true">
+                            <div class="modal-dialog" role="document">
+                                <div class="modal-content">
+                                    <div class="modal-header">
+                                        <h5 class="modal-title" id="exampleModalLabel">Modal title</h5>
+                                        <button type="button" class="close" data-dismiss="modal" aria-label="Close">
+                                            <span aria-hidden="true">&times;</span>
+                                        </button>
+                                    </div>
+                                    <div class="modal-body">
+                                        
+                                        @using (Html.BeginForm("AddReview", "Card", FormMethod.Post))
+                                        {
+                                        <div class="modal-body">
+                                            <input class="form-control" name="ProductId" value="@orderItem.ProductId" />
+                                            <h4>Star</h4>
+                                            <input type="number" name="Star" class="form-control  " value="1" min="1" max="5" step="1" style="width:100px; height:40px;" />
+                                            <br />
+                                            <h4>Review</h4>
+                                            <div class="form-group row">
+                                                <div class="col-12 ">
+                                                    <textarea required="" name="Description" class="form-control"></textarea>
+                                                </div>
+                                            </div>
+                                            <button type="submit" class="btn btn-warning">Send</button>
+                                            <button type="button" class="btn btn-warning" data-dismiss="modal">Cancel</button>
+                                        </div>
+                                        }
+                                    </div>
+                                    <div class="modal-footer">
+                                        <button type="button" class="btn btn-secondary" data-dismiss="modal">Close</button>
+                                        <button type="button" class="btn btn-primary">Save changes</button>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                    </td>
+                </tr>
+            }
+        </tbody>
+        <tfoot>
+            <tr>
+                <td colspan="2">Customer Name:</td>
+                <td>@order.FirsName @order.LastName</td>
+                <td rowspan="3">Total: @order.TotolPrice()</td>
+            </tr>
+            <tr>
+                <td colspan="2">Adress</td>
+                <td>@order.Adress</td>
+            </tr>
+            <tr>
+                <td colspan="2">Phone</td>
+                <td>@order.Phone</td>
+            </tr>
+            <tr>
+                <td colspan="2">Mail</td>
+                <td>@order.Email</td>
+            </tr>
+            <tr>
+                <td colspan="2">Paymen Status</td>
+                <td>@order.PaymentTypes</td>
+            </tr>
+            <tr>
+                <td colspan="2">Order Status</td>
+                <td>@order.OrderState</td>
+            </tr>
+        </tfoot>
+    </table>
+}
+
