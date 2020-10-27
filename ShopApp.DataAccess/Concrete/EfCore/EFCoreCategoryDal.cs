@@ -17,7 +17,6 @@ namespace ShopApp.DataAccess.Conrete.EfCore
             {
                 var cmd = $"delete from ProdctCategory where ProductId=@p0 And CategoryId=@p1";
                 context.Database.ExecuteSqlRaw(cmd, productId, categoryId);
-                //context.Database.ExecuteSqlCommand(cmd, productId, categoryId); //Bu yapı artık microsot tarafndan kullanılıyor 
             }
         }
 

@@ -78,18 +78,7 @@ namespace ShopApp.WebUI.Controllers
             };
             return View(productLM);    
 
-            //var productLM = new ProducListModel()
-            //{
-            //    PageInfo = new PageInfo()
-            //    {
-            //        TotalItems = _productService.GetCountByCategory(category),
-            //        CurrentPage = page,
-            //        ItemsPerPage = pagesize,
-            //        CurrentCategory=category
-            //    },
-            //    Products = _productService.GetProductByCategory(category,page,pagesize).ToList()
-            //};
-            //return View(productLM);
+          
 
         }
     }

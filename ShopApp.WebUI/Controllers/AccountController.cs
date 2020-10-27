@@ -192,7 +192,7 @@ namespace ShopApp.WebUI.Controllers
                 Css = "warning"
             });
 
-            //TempData["message"] = "Hesabınız onaylanmadı";
+           
             return View();
         }
 

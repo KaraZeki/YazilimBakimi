@@ -22,7 +22,6 @@ namespace ShopApp.DataAccess.Conrete.EfCore
        
         public Card GetByUserId(string userId)
         {
-          //burada tüm değerler geliyo
             using (var context = new ShopContext())
             {
                 return context

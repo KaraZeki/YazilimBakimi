@@ -12,7 +12,7 @@ namespace ShopApp.Entities
 
         public int ProductId { get; set; }
         public Product Product { get; set; }
-        public decimal Price { get; set; } //Satın alınan ürünün satın alındığı fiyatını kaybetmemek için fiyat bilgisi tutulur.
+        public decimal Price { get; set; } 
 
         public int Quantity { get; set; }
 

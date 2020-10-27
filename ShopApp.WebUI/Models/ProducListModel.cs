@@ -24,7 +24,7 @@ namespace ShopApp.WebUI.Models
         public Product  Product { get;  set; }
         public List<Category> Categories { get; set; }
         public Category Category { get; set; }
-        public Filter Filter { get; set; } /////////////////////////////////////
+        public Filter Filter { get; set; } 
 
     }
 }

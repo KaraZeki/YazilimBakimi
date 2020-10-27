@@ -14,10 +14,9 @@ namespace ShopApp.DataAccess.Conrete.EfCore
         }
         public DbSet<Product> Products { get; set; }
         public DbSet<Category> Categories { get; set; }
-        public DbSet<Card> Cards{ get; set; } //Not zaten card  içerisinde cardıtem de olduğu için altta  carditem tanımlaasakta database carditem eklenecektir.
-        public DbSet<CardItem> CardItems{ get; set; } //Not zaten card  içerisinde cardıtem de olduğu için altta  carditem tanımlaasakta database carditem eklenecektir.
-        public DbSet<Order> Orders{ get; set; } //Not zaten card  içerisinde cardıtem de olduğu için altta  carditem tanımlaasakta database carditem eklenecektir.
-        // Test içindir
+        public DbSet<Card> Cards{ get; set; } 
+        public DbSet<CardItem> CardItems{ get; set; } 
+        public DbSet<Order> Orders{ get; set; } 
         public DbSet<Review> Reviews{ get; set; } 
 
     }

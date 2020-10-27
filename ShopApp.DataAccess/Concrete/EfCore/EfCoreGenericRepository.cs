@@ -60,7 +60,7 @@ namespace ShopApp.DataAccess.Conrete.EfCore
         {
             using (var context = new TContext())
             {
-                context.Entry(entity).State = EntityState.Modified; // bu tarsdaki update işleminde ilişkili olan alt tablolar güncellenmez
+                context.Entry(entity).State = EntityState.Modified; // bu tarzdaki update işleminde ilişkili olan alt tablolar güncellenmez
                 context.SaveChanges();
             }
         }

@@ -10,7 +10,6 @@ namespace ShopApp.DataAccess.Conrete.EfCore
 {
     public class EfCoreOrderDal : EfCoreGenericRepository<Order, ShopContext>, IOrderDal
     {
-        //83. video 
         public List<Order> GetOrders(string userId)
         {
 

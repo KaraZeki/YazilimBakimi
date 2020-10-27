@@ -11,9 +11,6 @@ namespace ShopApp.Entities
             OrderItems = new List<OrderItem>();
         }
 
-        // stripe API
-        //Iyzico API
-
         public int Id { get; set; }
         public string OrderNumber { get; set; }
         public DateTime OrderDate { get; set; }
