@@ -32,7 +32,10 @@
                         <a class="btn btn-primary btn-sm mr-2" href="/admin/products/@item.Id">Edit</a>
                         <form action="/Admin/DeleteProduct" method="post" style="display:inline;">
                             <input type="hidden" name="Id" value="@item.Id" />
-                            <button type="submit" class="btn btn-danger btn-sm">Delete</button>
+                            <button id="btnDelete" type="submit" class="btn btn-danger btn-sm"
+                                    onclick="return confirm('Are you sure you want to delete product:@item.Name')">
+                                Delete
+                            </button>
                         </form>
                     </td>
                 </tr>
