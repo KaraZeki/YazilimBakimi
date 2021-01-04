@@ -46,40 +46,51 @@ namespace ShopApp.WebUI.Controllers
         }
 
         [HttpPost]
-        public async Task<IActionResult> CreateProduct(ProductModel model, IFormFile file)
+       public async Task<IActionResult> CreateProduct(ProductModel model, IFormFile file)
         {
+
             if (ModelState.IsValid)
             {
                 if (file != null)
                 {
-                    var entity = new Product()
+                    if (file.Length > 5000000)
                     {
-                        Name = model.Name,
-                        Price = model.Price,
-                        Description = model.Description,
-                       // ImageUrl = model.ImageUrl
-                       ImageUrl = file.FileName
-                     };
+                        TempData.Add("SDFJSDHFJSD", string.Format("Dosya boyutu 5 MB'tan fazla olmaz"));
+                        return View(model);
+                    }
+                    if (file.ContentType == "image/jpeg" || file.ContentType == "image/jpg" || file.ContentType == "image/png")
+                    {
+                        var entity = new Product()
+                        {
+                            Name = model.Name,
+                            Price = model.Price,
+                            Description = model.Description,
+                            // ImageUrl = model.ImageUrl
+                            ImageUrl = file.FileName
+                        };
 
-                    var path = Path.Combine(Directory.GetCurrentDirectory(), "wwwroot\\img", file.FileName);
-                    using (var stream = new FileStream(path, FileMode.Create))
-                    {
-                        await file.CopyToAsync(stream);
+                        var path = Path.Combine(Directory.GetCurrentDirectory(), "wwwroot\\img", file.FileName);
+                        using (var stream = new FileStream(path, FileMode.Create))
+                        {
+                            await file.CopyToAsync(stream);
+                        }
+
+                        if (_productService.Create(entity))
+                        {
+                            return RedirectToAction("ProductList");
+                        }
                     }
 
-                    if (_productService.Create(entity))
-                    {
-                        return RedirectToAction("ProductList");
-                    }
+                    TempData.Add("ContentTypeSDFJSDHFJSD", string.Format("geçersiz dosya türü"));
+                    return View(model);
                 }
-             
+
                 ViewBag.ErrorMessage = _productService.ErrorMessage;
                 return View(model);
             }
             return View(model);
-            
-        }
 
+        }
         [HttpGet]
         public IActionResult EditProduct(int? id)
         {
@@ -99,10 +110,11 @@ namespace ShopApp.WebUI.Controllers
         }
 
         [HttpPost]
-        public async Task<IActionResult> EditProduct(ProductModel model,int[] categoryIds, IFormFile file)
+		public async Task<IActionResult> EditProduct(ProductModel model, int[] categoryIds, IFormFile file)
         {
             if (ModelState.IsValid)
             {
+
                 var entity = _productService.GetById(model.Id);
 
                 if (entity == null)
@@ -117,23 +129,31 @@ namespace ShopApp.WebUI.Controllers
 
                 if (file != null)
                 {
-                    entity.ImageUrl = file.FileName;
-
-                    var path = Path.Combine(Directory.GetCurrentDirectory(), "wwwroot\\img", file.FileName);
-                    using(var stream=new FileStream(path, FileMode.Create))
+                    if (file.Length > 5000000)
                     {
-                        await file.CopyToAsync(stream);
+                        TempData.Add("SDFJSDHFJSD", string.Format("Dosya boyutu 5 MB'tan fazla olmaz"));
+                        return View(model);
+                    }
+                    if (file.ContentType == "image/jpeg" || file.ContentType == "image/jpg" || file.ContentType == "image/png")
+                    {
+                        entity.ImageUrl = file.FileName;
+
+                        var path = Path.Combine(Directory.GetCurrentDirectory(), "wwwroot\\img", file.FileName);
+                        using (var stream = new FileStream(path, FileMode.Create))
+                        {
+                            await file.CopyToAsync(stream);
+                        }
+                        _productService.Update(entity, categoryIds);
+                        return RedirectToAction("ProductList");
                     }
                 }
-
-                _productService.Update(entity, categoryIds);
-                return RedirectToAction("ProductList");
+               
             }
+            TempData.Add("ContentTypeWUEHWEEUFHUHWUEFH", string.Format("Geçersiz dosya türü. Dosya türünüz 'jpg','jpeg' veya 'png' türünde olmaıdır.  "));
             ViewBag.Categories = _categoryService.GetAll();
             return View(model);
-           
-        }
 
+        }
 
         [HttpPost]
         public IActionResult DeleteProduct(int id)
