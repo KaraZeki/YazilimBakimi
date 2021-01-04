@@ -14,9 +14,9 @@ namespace ShopApp.Business.Concrete
         {
             _reviewDal = reviewDal;
         }
-        public void Create(Review entity)
+        public int Create(Review entity)
         {
-            _reviewDal.Create(entity);
+            return _reviewDal.Insert(entity);
         }
     }
 }

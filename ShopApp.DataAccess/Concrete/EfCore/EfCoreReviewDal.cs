@@ -8,6 +8,13 @@ namespace ShopApp.DataAccess.Conrete.EfCore
 {
    public  class EfCoreReviewDal: EfCoreGenericRepository<Review, ShopContext>, IReviewDal
     {
-
+        public int Insert(Review review)
+        {
+            using (var context = new ShopContext())
+            {
+                context.Add(review);
+                return context.SaveChanges();
+            }
+        }
     }
 }
