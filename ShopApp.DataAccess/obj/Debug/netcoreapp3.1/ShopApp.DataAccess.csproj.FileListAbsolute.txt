@@ -46,3 +46,18 @@ D:\4.Sınıf\Yazılım Bakımı\YazilimBakimi\ShopApp.DataAccess\obj\Debug\netco
 D:\4.Sınıf\Yazılım Bakımı\YazilimBakimi\ShopApp.DataAccess\obj\Debug\netcoreapp3.1\ShopApp.DataAccess.dll
 D:\4.Sınıf\Yazılım Bakımı\YazilimBakimi\ShopApp.DataAccess\obj\Debug\netcoreapp3.1\ShopApp.DataAccess.pdb
 D:\4.Sınıf\Yazılım Bakımı\YazilimBakimi\ShopApp.DataAccess\obj\Debug\netcoreapp3.1\ShopApp.DataAccess.genruntimeconfig.cache
+C:\Users\fatih\Documents\GitHub\YazilimBakimi\ShopApp.DataAccess\bin\Debug\netcoreapp3.1\ShopApp.DataAccess.deps.json
+C:\Users\fatih\Documents\GitHub\YazilimBakimi\ShopApp.DataAccess\bin\Debug\netcoreapp3.1\ShopApp.DataAccess.runtimeconfig.json
+C:\Users\fatih\Documents\GitHub\YazilimBakimi\ShopApp.DataAccess\bin\Debug\netcoreapp3.1\ShopApp.DataAccess.runtimeconfig.dev.json
+C:\Users\fatih\Documents\GitHub\YazilimBakimi\ShopApp.DataAccess\bin\Debug\netcoreapp3.1\ShopApp.DataAccess.dll
+C:\Users\fatih\Documents\GitHub\YazilimBakimi\ShopApp.DataAccess\bin\Debug\netcoreapp3.1\ShopApp.DataAccess.pdb
+C:\Users\fatih\Documents\GitHub\YazilimBakimi\ShopApp.DataAccess\bin\Debug\netcoreapp3.1\ShopApp.Entities.dll
+C:\Users\fatih\Documents\GitHub\YazilimBakimi\ShopApp.DataAccess\bin\Debug\netcoreapp3.1\ShopApp.Entities.pdb
+C:\Users\fatih\Documents\GitHub\YazilimBakimi\ShopApp.DataAccess\obj\Debug\netcoreapp3.1\ShopApp.DataAccess.csprojAssemblyReference.cache
+C:\Users\fatih\Documents\GitHub\YazilimBakimi\ShopApp.DataAccess\obj\Debug\netcoreapp3.1\ShopApp.DataAccess.AssemblyInfoInputs.cache
+C:\Users\fatih\Documents\GitHub\YazilimBakimi\ShopApp.DataAccess\obj\Debug\netcoreapp3.1\ShopApp.DataAccess.AssemblyInfo.cs
+C:\Users\fatih\Documents\GitHub\YazilimBakimi\ShopApp.DataAccess\obj\Debug\netcoreapp3.1\ShopApp.DataAccess.csproj.CoreCompileInputs.cache
+C:\Users\fatih\Documents\GitHub\YazilimBakimi\ShopApp.DataAccess\obj\Debug\netcoreapp3.1\ShopApp.DataAccess.csproj.CopyComplete
+C:\Users\fatih\Documents\GitHub\YazilimBakimi\ShopApp.DataAccess\obj\Debug\netcoreapp3.1\ShopApp.DataAccess.dll
+C:\Users\fatih\Documents\GitHub\YazilimBakimi\ShopApp.DataAccess\obj\Debug\netcoreapp3.1\ShopApp.DataAccess.pdb
+C:\Users\fatih\Documents\GitHub\YazilimBakimi\ShopApp.DataAccess\obj\Debug\netcoreapp3.1\ShopApp.DataAccess.genruntimeconfig.cache

@@ -26,3 +26,17 @@ D:\Asp_NETMVC\SadikTuran\ShopApp\ShopApp.Business\obj\Debug\netcoreapp3.1\ShopAp
 D:\Asp_NETMVC\SadikTuran\ShopApp\ShopApp.Business\obj\Debug\netcoreapp3.1\ShopApp.Business.csproj.CopyComplete
 D:\Asp_NETMVC\SadikTuran\ShopApp\ShopApp.Business\obj\Debug\netcoreapp3.1\ShopApp.Business.dll
 D:\Asp_NETMVC\SadikTuran\ShopApp\ShopApp.Business\obj\Debug\netcoreapp3.1\ShopApp.Business.pdb
+C:\Users\fatih\Documents\GitHub\YazilimBakimi\ShopApp.Business\bin\Debug\netcoreapp3.1\ShopApp.Business.deps.json
+C:\Users\fatih\Documents\GitHub\YazilimBakimi\ShopApp.Business\bin\Debug\netcoreapp3.1\ShopApp.Business.dll
+C:\Users\fatih\Documents\GitHub\YazilimBakimi\ShopApp.Business\bin\Debug\netcoreapp3.1\ShopApp.Business.pdb
+C:\Users\fatih\Documents\GitHub\YazilimBakimi\ShopApp.Business\bin\Debug\netcoreapp3.1\ShopApp.DataAccess.dll
+C:\Users\fatih\Documents\GitHub\YazilimBakimi\ShopApp.Business\bin\Debug\netcoreapp3.1\ShopApp.Entities.dll
+C:\Users\fatih\Documents\GitHub\YazilimBakimi\ShopApp.Business\bin\Debug\netcoreapp3.1\ShopApp.DataAccess.pdb
+C:\Users\fatih\Documents\GitHub\YazilimBakimi\ShopApp.Business\bin\Debug\netcoreapp3.1\ShopApp.Entities.pdb
+C:\Users\fatih\Documents\GitHub\YazilimBakimi\ShopApp.Business\obj\Debug\netcoreapp3.1\ShopApp.Business.csprojAssemblyReference.cache
+C:\Users\fatih\Documents\GitHub\YazilimBakimi\ShopApp.Business\obj\Debug\netcoreapp3.1\ShopApp.Business.AssemblyInfoInputs.cache
+C:\Users\fatih\Documents\GitHub\YazilimBakimi\ShopApp.Business\obj\Debug\netcoreapp3.1\ShopApp.Business.AssemblyInfo.cs
+C:\Users\fatih\Documents\GitHub\YazilimBakimi\ShopApp.Business\obj\Debug\netcoreapp3.1\ShopApp.Business.csproj.CoreCompileInputs.cache
+C:\Users\fatih\Documents\GitHub\YazilimBakimi\ShopApp.Business\obj\Debug\netcoreapp3.1\ShopApp.Business.csproj.CopyComplete
+C:\Users\fatih\Documents\GitHub\YazilimBakimi\ShopApp.Business\obj\Debug\netcoreapp3.1\ShopApp.Business.dll
+C:\Users\fatih\Documents\GitHub\YazilimBakimi\ShopApp.Business\obj\Debug\netcoreapp3.1\ShopApp.Business.pdb

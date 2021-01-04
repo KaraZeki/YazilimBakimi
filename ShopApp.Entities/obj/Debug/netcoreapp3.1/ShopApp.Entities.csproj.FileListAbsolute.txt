@@ -25,3 +25,12 @@ D:\4.Sınıf\Yazılım Bakımı\YazilimBakimi\ShopApp.Entities\obj\Debug\netcore
 D:\4.Sınıf\Yazılım Bakımı\YazilimBakimi\ShopApp.Entities\obj\Debug\netcoreapp3.1\ShopApp.Entities.AssemblyInfo.cs
 D:\4.Sınıf\Yazılım Bakımı\YazilimBakimi\ShopApp.Entities\obj\Debug\netcoreapp3.1\ShopApp.Entities.dll
 D:\4.Sınıf\Yazılım Bakımı\YazilimBakimi\ShopApp.Entities\obj\Debug\netcoreapp3.1\ShopApp.Entities.pdb
+C:\Users\fatih\Documents\GitHub\YazilimBakimi\ShopApp.Entities\bin\Debug\netcoreapp3.1\ShopApp.Entities.deps.json
+C:\Users\fatih\Documents\GitHub\YazilimBakimi\ShopApp.Entities\bin\Debug\netcoreapp3.1\ShopApp.Entities.dll
+C:\Users\fatih\Documents\GitHub\YazilimBakimi\ShopApp.Entities\bin\Debug\netcoreapp3.1\ShopApp.Entities.pdb
+C:\Users\fatih\Documents\GitHub\YazilimBakimi\ShopApp.Entities\obj\Debug\netcoreapp3.1\ShopApp.Entities.csprojAssemblyReference.cache
+C:\Users\fatih\Documents\GitHub\YazilimBakimi\ShopApp.Entities\obj\Debug\netcoreapp3.1\ShopApp.Entities.AssemblyInfoInputs.cache
+C:\Users\fatih\Documents\GitHub\YazilimBakimi\ShopApp.Entities\obj\Debug\netcoreapp3.1\ShopApp.Entities.AssemblyInfo.cs
+C:\Users\fatih\Documents\GitHub\YazilimBakimi\ShopApp.Entities\obj\Debug\netcoreapp3.1\ShopApp.Entities.csproj.CoreCompileInputs.cache
+C:\Users\fatih\Documents\GitHub\YazilimBakimi\ShopApp.Entities\obj\Debug\netcoreapp3.1\ShopApp.Entities.dll
+C:\Users\fatih\Documents\GitHub\YazilimBakimi\ShopApp.Entities\obj\Debug\netcoreapp3.1\ShopApp.Entities.pdb

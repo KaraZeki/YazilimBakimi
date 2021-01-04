@@ -343,3 +343,12 @@ D:\Asp_NETMVC\SadikTuran\ShopApp\ShopApp.WebUI\bin\Debug\netcoreapp3.1\Microsoft
 D:\Asp_NETMVC\SadikTuran\ShopApp\ShopApp.WebUI\bin\Debug\netcoreapp3.1\Microsoft.Extensions.DependencyModel.dll
 D:\Asp_NETMVC\SadikTuran\ShopApp\ShopApp.WebUI\bin\Debug\netcoreapp3.1\Microsoft.Extensions.Globalization.CultureInfoCache.dll
 D:\Asp_NETMVC\SadikTuran\ShopApp\ShopApp.WebUI\bin\Debug\netcoreapp3.1\Microsoft.Extensions.PlatformAbstractions.dll
+C:\Users\fatih\Documents\GitHub\YazilimBakimi\ShopApp.WebUI\obj\Debug\netcoreapp3.1\ShopApp.WebUI.csprojAssemblyReference.cache
+C:\Users\fatih\Documents\GitHub\YazilimBakimi\ShopApp.WebUI\obj\Debug\netcoreapp3.1\ShopApp.WebUI.AssemblyInfoInputs.cache
+C:\Users\fatih\Documents\GitHub\YazilimBakimi\ShopApp.WebUI\obj\Debug\netcoreapp3.1\ShopApp.WebUI.AssemblyInfo.cs
+C:\Users\fatih\Documents\GitHub\YazilimBakimi\ShopApp.WebUI\obj\Debug\netcoreapp3.1\ShopApp.WebUI.csproj.CoreCompileInputs.cache
+C:\Users\fatih\Documents\GitHub\YazilimBakimi\ShopApp.WebUI\obj\Debug\netcoreapp3.1\ShopApp.WebUI.MvcApplicationPartsAssemblyInfo.cache
+C:\Users\fatih\Documents\GitHub\YazilimBakimi\ShopApp.WebUI\obj\Debug\netcoreapp3.1\ShopApp.WebUI.RazorAssemblyInfo.cache
+C:\Users\fatih\Documents\GitHub\YazilimBakimi\ShopApp.WebUI\obj\Debug\netcoreapp3.1\ShopApp.WebUI.RazorAssemblyInfo.cs
+C:\Users\fatih\Documents\GitHub\YazilimBakimi\ShopApp.WebUI\obj\Debug\netcoreapp3.1\ShopApp.WebUI.dll
+C:\Users\fatih\Documents\GitHub\YazilimBakimi\ShopApp.WebUI\obj\Debug\netcoreapp3.1\ShopApp.WebUI.pdb

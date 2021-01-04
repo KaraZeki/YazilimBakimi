@@ -1,23 +1,20 @@
 {
   "format": 1,
   "restore": {
-    "C:\\Users\\king_\\Desktop\\YazilimBakimi\\ShopApp.Business\\ShopApp.Business.csproj": {}
+    "C:\\Users\\fatih\\Documents\\GitHub\\YazilimBakimi\\ShopApp.Business\\ShopApp.Business.csproj": {}
   },
   "projects": {
-    "C:\\Users\\king_\\Desktop\\YazilimBakimi\\ShopApp.Business\\ShopApp.Business.csproj": {
+    "C:\\Users\\fatih\\Documents\\GitHub\\YazilimBakimi\\ShopApp.Business\\ShopApp.Business.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "C:\\Users\\king_\\Desktop\\YazilimBakimi\\ShopApp.Business\\ShopApp.Business.csproj",
+        "projectUniqueName": "C:\\Users\\fatih\\Documents\\GitHub\\YazilimBakimi\\ShopApp.Business\\ShopApp.Business.csproj",
         "projectName": "ShopApp.Business",
-        "projectPath": "C:\\Users\\king_\\Desktop\\YazilimBakimi\\ShopApp.Business\\ShopApp.Business.csproj",
-        "packagesPath": "C:\\Users\\king_\\.nuget\\packages\\",
-        "outputPath": "C:\\Users\\king_\\Desktop\\YazilimBakimi\\ShopApp.Business\\obj\\",
+        "projectPath": "C:\\Users\\fatih\\Documents\\GitHub\\YazilimBakimi\\ShopApp.Business\\ShopApp.Business.csproj",
+        "packagesPath": "C:\\Users\\fatih\\.nuget\\packages\\",
+        "outputPath": "C:\\Users\\fatih\\Documents\\GitHub\\YazilimBakimi\\ShopApp.Business\\obj\\",
         "projectStyle": "PackageReference",
-        "fallbackFolders": [
-          "C:\\Program Files\\dotnet\\sdk\\NuGetFallbackFolder"
-        ],
         "configFilePaths": [
-          "C:\\Users\\king_\\AppData\\Roaming\\NuGet\\NuGet.Config",
+          "C:\\Users\\fatih\\AppData\\Roaming\\NuGet\\NuGet.Config",
           "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
         ],
         "originalTargetFrameworks": [
@@ -29,12 +26,13 @@
         },
         "frameworks": {
           "netcoreapp3.1": {
+            "targetAlias": "netcoreapp3.1",
             "projectReferences": {
-              "C:\\Users\\king_\\Desktop\\YazilimBakimi\\ShopApp.DataAccess\\ShopApp.DataAccess.csproj": {
-                "projectPath": "C:\\Users\\king_\\Desktop\\YazilimBakimi\\ShopApp.DataAccess\\ShopApp.DataAccess.csproj"
+              "C:\\Users\\fatih\\Documents\\GitHub\\YazilimBakimi\\ShopApp.DataAccess\\ShopApp.DataAccess.csproj": {
+                "projectPath": "C:\\Users\\fatih\\Documents\\GitHub\\YazilimBakimi\\ShopApp.DataAccess\\ShopApp.DataAccess.csproj"
               },
-              "C:\\Users\\king_\\Desktop\\YazilimBakimi\\ShopApp.Entities\\ShopApp.Entities.csproj": {
-                "projectPath": "C:\\Users\\king_\\Desktop\\YazilimBakimi\\ShopApp.Entities\\ShopApp.Entities.csproj"
+              "C:\\Users\\fatih\\Documents\\GitHub\\YazilimBakimi\\ShopApp.Entities\\ShopApp.Entities.csproj": {
+                "projectPath": "C:\\Users\\fatih\\Documents\\GitHub\\YazilimBakimi\\ShopApp.Entities\\ShopApp.Entities.csproj"
               }
             }
           }
@@ -47,6 +45,7 @@
       },
       "frameworks": {
         "netcoreapp3.1": {
+          "targetAlias": "netcoreapp3.1",
           "imports": [
             "net461",
             "net462",
@@ -62,24 +61,21 @@
               "privateAssets": "all"
             }
           },
-          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\3.1.403\\RuntimeIdentifierGraph.json"
+          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\5.0.101\\RuntimeIdentifierGraph.json"
         }
       }
     },
-    "C:\\Users\\king_\\Desktop\\YazilimBakimi\\ShopApp.DataAccess\\ShopApp.DataAccess.csproj": {
+    "C:\\Users\\fatih\\Documents\\GitHub\\YazilimBakimi\\ShopApp.DataAccess\\ShopApp.DataAccess.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "C:\\Users\\king_\\Desktop\\YazilimBakimi\\ShopApp.DataAccess\\ShopApp.DataAccess.csproj",
+        "projectUniqueName": "C:\\Users\\fatih\\Documents\\GitHub\\YazilimBakimi\\ShopApp.DataAccess\\ShopApp.DataAccess.csproj",
         "projectName": "ShopApp.DataAccess",
-        "projectPath": "C:\\Users\\king_\\Desktop\\YazilimBakimi\\ShopApp.DataAccess\\ShopApp.DataAccess.csproj",
-        "packagesPath": "C:\\Users\\king_\\.nuget\\packages\\",
-        "outputPath": "C:\\Users\\king_\\Desktop\\YazilimBakimi\\ShopApp.DataAccess\\obj\\",
+        "projectPath": "C:\\Users\\fatih\\Documents\\GitHub\\YazilimBakimi\\ShopApp.DataAccess\\ShopApp.DataAccess.csproj",
+        "packagesPath": "C:\\Users\\fatih\\.nuget\\packages\\",
+        "outputPath": "C:\\Users\\fatih\\Documents\\GitHub\\YazilimBakimi\\ShopApp.DataAccess\\obj\\",
         "projectStyle": "PackageReference",
-        "fallbackFolders": [
-          "C:\\Program Files\\dotnet\\sdk\\NuGetFallbackFolder"
-        ],
         "configFilePaths": [
-          "C:\\Users\\king_\\AppData\\Roaming\\NuGet\\NuGet.Config",
+          "C:\\Users\\fatih\\AppData\\Roaming\\NuGet\\NuGet.Config",
           "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
         ],
         "originalTargetFrameworks": [
@@ -91,9 +87,10 @@
         },
         "frameworks": {
           "netcoreapp3.1": {
+            "targetAlias": "netcoreapp3.1",
             "projectReferences": {
-              "C:\\Users\\king_\\Desktop\\YazilimBakimi\\ShopApp.Entities\\ShopApp.Entities.csproj": {
-                "projectPath": "C:\\Users\\king_\\Desktop\\YazilimBakimi\\ShopApp.Entities\\ShopApp.Entities.csproj"
+              "C:\\Users\\fatih\\Documents\\GitHub\\YazilimBakimi\\ShopApp.Entities\\ShopApp.Entities.csproj": {
+                "projectPath": "C:\\Users\\fatih\\Documents\\GitHub\\YazilimBakimi\\ShopApp.Entities\\ShopApp.Entities.csproj"
               }
             }
           }
@@ -106,6 +103,7 @@
       },
       "frameworks": {
         "netcoreapp3.1": {
+          "targetAlias": "netcoreapp3.1",
           "dependencies": {
             "Microsoft.EntityFrameworkCore": {
               "target": "Package",
@@ -147,24 +145,21 @@
               "privateAssets": "all"
             }
           },
-          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\3.1.403\\RuntimeIdentifierGraph.json"
+          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\5.0.101\\RuntimeIdentifierGraph.json"
         }
       }
     },
-    "C:\\Users\\king_\\Desktop\\YazilimBakimi\\ShopApp.Entities\\ShopApp.Entities.csproj": {
+    "C:\\Users\\fatih\\Documents\\GitHub\\YazilimBakimi\\ShopApp.Entities\\ShopApp.Entities.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "C:\\Users\\king_\\Desktop\\YazilimBakimi\\ShopApp.Entities\\ShopApp.Entities.csproj",
+        "projectUniqueName": "C:\\Users\\fatih\\Documents\\GitHub\\YazilimBakimi\\ShopApp.Entities\\ShopApp.Entities.csproj",
         "projectName": "ShopApp.Entities",
-        "projectPath": "C:\\Users\\king_\\Desktop\\YazilimBakimi\\ShopApp.Entities\\ShopApp.Entities.csproj",
-        "packagesPath": "C:\\Users\\king_\\.nuget\\packages\\",
-        "outputPath": "C:\\Users\\king_\\Desktop\\YazilimBakimi\\ShopApp.Entities\\obj\\",
+        "projectPath": "C:\\Users\\fatih\\Documents\\GitHub\\YazilimBakimi\\ShopApp.Entities\\ShopApp.Entities.csproj",
+        "packagesPath": "C:\\Users\\fatih\\.nuget\\packages\\",
+        "outputPath": "C:\\Users\\fatih\\Documents\\GitHub\\YazilimBakimi\\ShopApp.Entities\\obj\\",
         "projectStyle": "PackageReference",
-        "fallbackFolders": [
-          "C:\\Program Files\\dotnet\\sdk\\NuGetFallbackFolder"
-        ],
         "configFilePaths": [
-          "C:\\Users\\king_\\AppData\\Roaming\\NuGet\\NuGet.Config",
+          "C:\\Users\\fatih\\AppData\\Roaming\\NuGet\\NuGet.Config",
           "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
         ],
         "originalTargetFrameworks": [
@@ -176,6 +171,7 @@
         },
         "frameworks": {
           "netcoreapp3.1": {
+            "targetAlias": "netcoreapp3.1",
             "projectReferences": {}
           }
         },
@@ -187,6 +183,7 @@
       },
       "frameworks": {
         "netcoreapp3.1": {
+          "targetAlias": "netcoreapp3.1",
           "dependencies": {
             "Microsoft.AspNetCore.Identity.EntityFrameworkCore": {
               "target": "Package",
@@ -212,7 +209,7 @@
               "privateAssets": "all"
             }
           },
-          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\3.1.403\\RuntimeIdentifierGraph.json"
+          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\5.0.101\\RuntimeIdentifierGraph.json"
         }
       }
     }
