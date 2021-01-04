@@ -7,5 +7,6 @@ namespace ShopApp.DataAccess.Abstract
 {
    public interface IReviewDal:IRepository<Review>
     {
+        int Insert(Review review);
     }
 }

@@ -7,6 +7,6 @@ namespace ShopApp.Business.Abstract
 {
    public interface IReviewService
     {
-        void Create(Review entity);
+        int Create(Review entity);
     }
 }

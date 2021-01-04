@@ -297,15 +297,22 @@ namespace ShopApp.WebUI.Controllers
 
 
         [HttpPost]
-        public async Task<IActionResult> AddReview(Review review)
+        public async Task<IActionResult> AddReview(Review review, int? productid, int yildiz = 1)
         {
             var user = await _userManager.GetUserAsync(User);
             review.UserId = _userManager.GetUserId(User);
             review.UserFullName = user.FullName;
             review.Date = DateTime.Now;
+            review.Star = yildiz;
 
-            _reviewService.Create(review);
-            return RedirectToAction("GetOrders");
+            if (_reviewService.Create(review) > 0)
+            {
+                return Json(new { result = true }, new Newtonsoft.Json.JsonSerializerSettings());
+            }
+
+            return Json(new { result = false }, new Newtonsoft.Json.JsonSerializerSettings());
+
+
         }
     }
 }

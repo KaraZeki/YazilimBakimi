@@ -10849,41 +10849,43 @@
     ]
   },
   "packageFolders": {
-    "C:\\Users\\Mehmet Zeki KARA\\.nuget\\packages\\": {}
+    "C:\\Users\\king_\\.nuget\\packages\\": {},
+    "C:\\Program Files\\dotnet\\sdk\\NuGetFallbackFolder": {}
   },
   "project": {
     "version": "1.0.0",
     "restore": {
-      "projectUniqueName": "D:\\4.Sınıf\\Yazılım Bakımı\\YazilimBakimi\\ShopApp.WebUI\\ShopApp.WebUI.csproj",
+      "projectUniqueName": "C:\\Users\\king_\\Desktop\\YazilimBakimi\\ShopApp.WebUI\\ShopApp.WebUI.csproj",
       "projectName": "ShopApp.WebUI",
-      "projectPath": "D:\\4.Sınıf\\Yazılım Bakımı\\YazilimBakimi\\ShopApp.WebUI\\ShopApp.WebUI.csproj",
-      "packagesPath": "C:\\Users\\Mehmet Zeki KARA\\.nuget\\packages\\",
-      "outputPath": "D:\\4.Sınıf\\Yazılım Bakımı\\YazilimBakimi\\ShopApp.WebUI\\obj\\",
+      "projectPath": "C:\\Users\\king_\\Desktop\\YazilimBakimi\\ShopApp.WebUI\\ShopApp.WebUI.csproj",
+      "packagesPath": "C:\\Users\\king_\\.nuget\\packages\\",
+      "outputPath": "C:\\Users\\king_\\Desktop\\YazilimBakimi\\ShopApp.WebUI\\obj\\",
       "projectStyle": "PackageReference",
+      "fallbackFolders": [
+        "C:\\Program Files\\dotnet\\sdk\\NuGetFallbackFolder"
+      ],
       "configFilePaths": [
-        "C:\\Users\\Mehmet Zeki KARA\\AppData\\Roaming\\NuGet\\NuGet.Config",
-        "C:\\Program Files (x86)\\NuGet\\Config\\DevExpress 18.1.config",
+        "C:\\Users\\king_\\AppData\\Roaming\\NuGet\\NuGet.Config",
         "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
       ],
       "originalTargetFrameworks": [
         "netcoreapp3.1"
       ],
       "sources": {
-        "C:\\Program Files (x86)\\DevExpress 18.1\\Components\\System\\Components\\Packages": {},
         "C:\\Program Files (x86)\\Microsoft SDKs\\NuGetPackages\\": {},
         "https://api.nuget.org/v3/index.json": {}
       },
       "frameworks": {
         "netcoreapp3.1": {
           "projectReferences": {
-            "D:\\4.Sınıf\\Yazılım Bakımı\\YazilimBakimi\\ShopApp.Business\\ShopApp.Business.csproj": {
-              "projectPath": "D:\\4.Sınıf\\Yazılım Bakımı\\YazilimBakimi\\ShopApp.Business\\ShopApp.Business.csproj"
+            "C:\\Users\\king_\\Desktop\\YazilimBakimi\\ShopApp.Business\\ShopApp.Business.csproj": {
+              "projectPath": "C:\\Users\\king_\\Desktop\\YazilimBakimi\\ShopApp.Business\\ShopApp.Business.csproj"
             },
-            "D:\\4.Sınıf\\Yazılım Bakımı\\YazilimBakimi\\ShopApp.DataAccess\\ShopApp.DataAccess.csproj": {
-              "projectPath": "D:\\4.Sınıf\\Yazılım Bakımı\\YazilimBakimi\\ShopApp.DataAccess\\ShopApp.DataAccess.csproj"
+            "C:\\Users\\king_\\Desktop\\YazilimBakimi\\ShopApp.DataAccess\\ShopApp.DataAccess.csproj": {
+              "projectPath": "C:\\Users\\king_\\Desktop\\YazilimBakimi\\ShopApp.DataAccess\\ShopApp.DataAccess.csproj"
             },
-            "D:\\4.Sınıf\\Yazılım Bakımı\\YazilimBakimi\\ShopApp.Entities\\ShopApp.Entities.csproj": {
-              "projectPath": "D:\\4.Sınıf\\Yazılım Bakımı\\YazilimBakimi\\ShopApp.Entities\\ShopApp.Entities.csproj"
+            "C:\\Users\\king_\\Desktop\\YazilimBakimi\\ShopApp.Entities\\ShopApp.Entities.csproj": {
+              "projectPath": "C:\\Users\\king_\\Desktop\\YazilimBakimi\\ShopApp.Entities\\ShopApp.Entities.csproj"
             }
           }
         }
@@ -10954,7 +10956,7 @@
             "privateAssets": "all"
           }
         },
-        "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\3.1.201\\RuntimeIdentifierGraph.json"
+        "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\3.1.403\\RuntimeIdentifierGraph.json"
       }
     }
   },
