@@ -42,29 +42,21 @@ namespace ShopApp.WebUI.Controllers
         }
 
         //products/telefon?page=1 örnektir.
-        public IActionResult List(string category, int page=1,Filter filter=null)
+        public IActionResult List()
+        {
+            return View();
+        }
+        public async Task<IActionResult> ListPartial(string data)
+        {
+            Product product = new Product();
+            product = JsonConvert.DeserializeObject<Product>(data);
+
+            return PartialView("_product", product);
+        }
+
+        public async Task<JsonResult> ListData(string category, int page = 1, string orderBy = null)
         {
             const int pagesize = 3;
-            // Filtre denemesi
-            //if(filter != null)
-            //{
-            //    var prodctLM = new ProducListModel()
-            //    {
-            //        PageInfo = new PageInfo()
-            //        {
-            //            TotalItems = _productService.GetCountByCategory(category),
-            //            CurrentPage = page,
-            //            ItemsPerPage = pagesize,
-            //            CurrentCategory = category
-            //        },
-            //        Products = _productService.GetByIdWitFilterhCategories(filter).ToList()
-            //        //Products = _productService.GetProductByCategory(filter,page,pagesize).ToList()
-
-            //    };
-            //}
-
-            
-
             var productLM = new ProducListModel()
             {
                 PageInfo = new PageInfo()
@@ -72,14 +64,27 @@ namespace ShopApp.WebUI.Controllers
                     TotalItems = _productService.GetCountByCategory(category),
                     CurrentPage = page,
                     ItemsPerPage = pagesize,
-                    CurrentCategory=category
+                    CurrentCategory = category
                 },
-                Products = _productService.GetByIdWitFilterhCategories(filter,page,pagesize).ToList()
+                Products = _productService.GetProductByCategory(category, page, pagesize).ToList()
             };
-            return View(productLM);    
 
-          
+            //ürünü sıralama 
+            //01 en düşük fiyat 
+            //02 en yüksek fiyat 
+            //03 en yeniler 
+            //04 diğer
+            if (orderBy == "01")
+            {
+                productLM.Products = productLM.Products.OrderBy(x => x.Price).ToList();
+            }
+            if (orderBy == "02")
+            {
+                productLM.Products = productLM.Products.OrderByDescending(x => x.Price).ToList();
+            }
 
+
+            return Json(productLM);
         }
     }
 }
